@@ -1,10 +1,10 @@
 import './index.css'
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from "./pages/LandingPage.tsx";
-import AboutMe from "./pages/AboutMe.tsx";
-import ProjectList from "./pages/ProjectList.tsx";
-import ProjectShowcase from "./pages/ProjectShowcase.tsx";
-import Resume from "./pages/Resume.tsx";
+import LandingPage from "./pageComponents/LandingPage.tsx";
+import AboutMe from "./pageComponents/AboutMe.tsx";
+import ProjectList from "./pageComponents/ProjectList.tsx";
+import ProjectShowcase from "./pageComponents/ProjectShowcase.tsx";
+import Resume from "./pageComponents/Resume.tsx";
 
 function App() {
 
