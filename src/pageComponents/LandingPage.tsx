@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function LandingPage() {
     return (
-        <div className="flex flex-col gap-10 px-30 py-10 m-10 text-white">
-            <h1 className="text-center text-5xl">Gage Witcig's Portfolio</h1>
+        <div className="flex flex-col gap-10 px-30 py-10 text-white max-w-270 max-h-230 overflow-hidden">
+            <h1 className="text-center text-6xl">Gage Witcig's Portfolio</h1>
             <div className="flex flex-col [@media(min-width:930px)]:flex-row gap-20">
                 <img
                     src="../../src/assets/ML6A4928.jpg"
@@ -14,13 +14,13 @@ function LandingPage() {
                 ></img>
                 <div className="flex flex-col gap-20 order-2 justify-center items-center">
                     <div className="flex flex-col text-3xl gap-15 justify-center items-center">
-                        <Link to="/about" className="hover:scale-110 transition-transform text-4xl">
+                        <Link to="/about" className="hover:scale-130 transition-transform">
                             About Me
                         </Link>
-                        <Link to="/projects" className="hover:scale-110 transition-transform">
+                        <Link to="/projects" className="hover:scale-130 transition-transform">
                             My Projects
                         </Link>
-                        <Link to="/resume" className="hover:scale-110 transition-transform">
+                        <Link to="/resume" className="hover:scale-130 transition-transform">
                             My Resume
                         </Link>
                     </div>
@@ -28,13 +28,13 @@ function LandingPage() {
                         <p className="text-center text-xl font-[TASA Orbiter]">Socials:</p>
                         <div className="flex flex-row gap-10 justify-center items-center">
                             <a href="https://www.linkedin.com/in/gage-witcig-a96722373/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                                <FaLinkedin className="w-15 h-15 hover:scale-110 transition-transform"/>
+                                <FaLinkedin className="w-15 h-15 hover:scale-130 transition-transform"/>
                             </a>
                             <a href="https://github.com/gwitcig2" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                                <FaGithub className="w-15 h-15 hover:scale-110 transition-transform"/>
+                                <FaGithub className="w-15 h-15 hover:scale-130 transition-transform"/>
                             </a>
                             <a href="mailto:gagewitcig@gmail.com" aria-label="Email">
-                                <FaEnvelope className="w-15 h-15 hover:scale-110 transition-transform"/>
+                                <FaEnvelope className="w-15 h-15 hover:scale-130 transition-transform"/>
                             </a>
                         </div>
                     </div>
